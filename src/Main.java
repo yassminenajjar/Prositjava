@@ -15,5 +15,9 @@ public class Main {
         System.out.println("le zoo "+Z1.zooName+" contient "+Z1.nbrCages+"Cages");
 
 
+
+
+
+
         }
     }
