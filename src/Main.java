@@ -4,20 +4,33 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ZooManagment Z1 = new ZooManagment();
+     /* ZooManagment zm = new ZooManagment();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("zooName : ");
+       zm.zooName = sc.nextLine();
+        System.out.println("nbrCages : ");
+        zm.nbCages = sc.nextInt();
+        System.out.println("zooName : "+zm.zooName);
 
-        System.out.println("zooname :");
-        Scanner sc =new Scanner(System.in);
-        System.out.println("nbrdecages :");
-        Z1.zooName = sc.nextLine();
-        System.out.println("nombre de cages  :");
-        Z1.nbrCages = sc.nextInt();
-        System.out.println("le zoo "+Z1.zooName+" contient "+Z1.nbrCages+"Cages");
+        System.out.println("nbrCages : "+zm.nbCages);
+        System.out.println("Zoo "+zm);
+        ZooManagment zm2 = new ZooManagment("my Zoo",80);
 
+System.out.println(zm2);*/
+        Animal chat = new Animal();
+        Animal chien = new Animal();
+        Zoo zoo = new Zoo();
+        chat.name="Michou";
+        chat.age=1;
+        chat.isMammal=true;
+        chien.name="loulou";
+        chien.age=2;
+        chien.isMammal=true;
+        Animal lion = new Animal("Chat","simba",15,true);
+        System.out.println(lion);
+        Zoo zoo2 = new Zoo("frigya","sousse",100);
+        System.out.println(zoo2);
+        zoo2.displayZoo();
 
-
-
-
-
-        }
     }
+}
